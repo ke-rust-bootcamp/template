@@ -6,6 +6,13 @@ license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[[bin]]
+name = "log2"
+path = "src/winnow_nginx_log.rs"
+
+
 [dependencies]
 anyhow = "1.0.86"
+chrono = "0.4.38"
 regex = "1.10.6"
+winnow = "0.6.18"

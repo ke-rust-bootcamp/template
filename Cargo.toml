@@ -10,6 +10,10 @@ license = "MIT"
 name = "log2"
 path = "src/winnow_nginx_log.rs"
 
+[[bin]]
+name = "json"
+path = "src/winnow_json.rs"
+
 
 [dependencies]
 anyhow = "1.0.86"

@@ -14,9 +14,15 @@ path = "src/winnow_nginx_log.rs"
 name = "json"
 path = "src/winnow_json.rs"
 
+[[bin]]
+name = "json2"
+path = "src/pest_json.rs"
+
 
 [dependencies]
 anyhow = "1.0.86"
 chrono = "0.4.38"
+pest = { version = "2.7.11", features = ["pretty-print"] }
+pest_derive = "2.7.11"
 regex = "1.10.6"
 winnow = "0.6.18"

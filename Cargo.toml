@@ -6,24 +6,5 @@ license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[[bin]]
-name = "log2"
-path = "src/winnow_nginx_log.rs"
-
-[[bin]]
-name = "json"
-path = "src/winnow_json.rs"
-
-[[bin]]
-name = "json2"
-path = "src/pest_json.rs"
-
 
 [dependencies]
-anyhow = "1.0.86"
-chrono = "0.4.38"
-pest = { version = "2.7.11", features = ["pretty-print"] }
-pest_derive = "2.7.11"
-pyo3 = { version = "0.22.2", features = ["auto-initialize"] }
-regex = "1.10.6"
-winnow = "0.6.18"
